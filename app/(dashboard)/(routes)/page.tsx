@@ -4,6 +4,7 @@ const Page = () => {
   return (
     <section>
       <UserButton afterSignOutUrl="/" />
+      Route protected
     </section>
   );
 };
