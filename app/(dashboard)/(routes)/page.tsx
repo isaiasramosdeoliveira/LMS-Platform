@@ -1,12 +1,7 @@
 import { UserButton } from "@clerk/nextjs";
 
 const Page = () => {
-  return (
-    <section>
-      <UserButton afterSignOutUrl="/" />
-      Route protected
-    </section>
-  );
+  return <section></section>;
 };
 
 export default Page;

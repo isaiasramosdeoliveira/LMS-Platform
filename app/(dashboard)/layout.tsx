@@ -11,7 +11,7 @@ function layout({ children }: { children: React.ReactNode }) {
       <div className="h-full md:flex w-56 flex-col fixed inset-y-0 z-50 hidden">
         <Sidebar />
       </div>
-      <main className="md:pl-56 h-full">{children}</main>
+      <main className="md:pl-56 pt-[80px] h-full">{children}</main>
     </div>
   );
 }
